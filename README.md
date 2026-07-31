@@ -1,12 +1,24 @@
-# 🌊 Bihar Hydro-Climatic Risk Atlas
+# 🌊 Nepal Hydro-Climatic Risk Atlas
 ### An Integrated Decision Support System for Flood & Groundwater Risk Assessment
 
-**🔴 Live Demo:** [https://bihar-risk-atlas-ankit.streamlit.app/](https://bihar-risk-atlas-ankit.streamlit.app/)
+**🔴 Live Demo:** [https://saptari-risk-atlas-sujan.streamlit.app/](https://saptari-risk-atlas-sujan.streamlit.app/)
+
+**📖 Want to run/extend this yourself?** See [TUTORIAL.md](TUTORIAL.md) for the full end-to-end
+pipeline: GEE extraction → risk scoring → local dev → GitHub → Streamlit Cloud deployment.
 
 ## 📋 Project Overview
-Bihar faces a hydrological paradox known as **"Double Jeopardy"**: the same administrative blocks often suffer from acute **floods** during the monsoon and severe **groundwater depletion** during the dry season.
+Nepal faces a hydrological paradox known as **"Double Jeopardy"**: the same municipal units
+often suffer from acute **floods** during the monsoon and severe **groundwater depletion**
+during the dry season.
 
-This project creates a unified **Compound Risk Index** to identify these overlapping hazard zones. It leverages satellite data, machine learning, and explainable AI to provide policymakers with a transparent, data-driven tool for prioritizing interventions like Managed Aquifer Recharge (MAR).
+This project creates a unified **Compound Risk Index** to identify these overlapping hazard
+zones, with an interactive dashboard covering municipal units nationwide (currently scored for
+45 of Nepal's 77 districts, expandable via the pipeline in [TUTORIAL.md](TUTORIAL.md)). It
+leverages satellite data and explainable-AI-informed feature engineering to give policymakers a
+transparent, data-driven tool for prioritizing interventions like Managed Aquifer Recharge (MAR).
+
+Originally built for Saptari district only; generalized to a repeatable, per-district pipeline
+(`scripts/`) that can extract, score, and visualize any district in the country.
 
 ---
 
@@ -49,7 +61,7 @@ To identify blocks facing *both* risks simultaneously, we normalized and combine
   Blocks in the **Top 20%** of scores are classified as **🔴 Critical**.
 
 ### **4. Temporal Trend Analysis (Degradation Rate)**
-To move beyond a static snapshot, we analyzed the *direction* of change over 5 years (2019–2024).
+To move beyond a static snapshot, we analyzed the *direction* of change over 5 years (2019–2025).
 
 * **Method:** Ordinary Least Squares (OLS) Linear Regression on annual stress indices.
 * **Equation:** $y = mx + c$ (where $m$ is the **Degradation Rate**).
@@ -62,7 +74,7 @@ To move beyond a static snapshot, we analyzed the *direction* of change over 5 y
 ## ⚙️ The Workflow
 
 1.  **🛰️ Data Acquisition (Google Earth Engine):**
-    * Extracted multi-year time-series data (2019–2024) for every block.
+    * Extracted multi-year time-series data (2019–2025) for every block.
     * **Sources:** CHIRPS Daily (Rainfall), MODIS (ET), Sentinel-2 (NDVI).
 2.  **🧠 Machine Learning & Risk Modeling:**
     * Trained Random Forest models to predict stress indices based on climatic drivers.
@@ -86,28 +98,41 @@ This project was built using a robust stack of open-source geospatial and machin
 
 ## 📬 Author & Contact
 
-Developed by **Ankit Kumar** with the help of LLM.
+Modified and Updated by **Sujan Parajuli** with the help of LLM from [explolar](https://github.com/explolar).
 
-* 📧 **Email:** [Ankituday123@gmail.com](mailto:Ankituday123@gmail.com)
-* 💼 **LinkedIn:** [Ankit Kumar](https://www.linkedin.com/in/ankit-kumar-9b3b06228/)
-* 💻 **GitHub:** [explolar](https://github.com/explolar)
+* 📧 **Email:** [sujan.parajuli2070@gmail.com](mailto:sujan.parajuli2070@gmail.com)
+* 💼 **LinkedIn:** [Sujan Parajuli](https://www.linkedin.com/in/sujanparajuli9/)
+* 💻 **GitHub:** [region-risk-atlas](https://github.com/SujanParajuli-GISP/regoin-risk-atlas)
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-bihar-risk-atlas/
+regoin-risk-atlas/
 ├── frontend/
-│   └── app.py                  
+│   └── app.py                              # Streamlit dashboard (all districts)
+├── scripts/                                # Repeatable, per-district pipeline
+│   ├── join_blocks_to_districts.py         # Spatial join: blocks -> District
+│   ├── extract_gee_features.py             # Submit GEE export tasks per district
+│   ├── download_drive_exports.py           # Pull completed CSVs from Drive
+│   ├── build_risk_atlas.py                 # Feature engineering + risk scoring
+│   └── simplify_boundaries.py              # Shrink boundary files before committing
 ├── data/
-│   └── final_risk_atlas_bihar.geojson  
+│   ├── final_risk_atlas_nepal.geojson      # Nationwide atlas the app reads (committed)
+│   ├── boundaries/                         # District/block boundaries (committed, simplified)
+│   ├── processed/                          # Raw GEE export CSVs (gitignored, ~9GB)
+│   └── final_risk_atlas_saptari.geojson    # Legacy Saptari-only fallback
 ├── gee_scripts/
-│   └── extraction_script.js    
+│   └── Step_02_extraction_script_gee.py    # Legacy single-district GEE script
 ├── notebooks/
-│   ├── 01_prepare_boundaries.ipynb     
-│   └── 03_merge_features.ipynb         
-├── .gitignore                  
-├── LICENSE                     
-├── README.md                   
-└── requirements.txt            
+│   ├── Step_01_prepare_boundaries.ipynb
+│   ├── Step_02_extraction_gee_python.ipynb
+│   └── Step_03_merge_features_processing_machine_learning_and_final_outputs.ipynb
+├── .streamlit/
+│   └── config.toml                         # Dark theme
+├── .gitignore
+├── LICENSE
+├── README.md
+├── TUTORIAL.md                             # Full end-to-end pipeline walkthrough
+└── requirements.txt

@@ -1,0 +1,166 @@
+block_id,block_name,block_name,GaPa_NaPa,Compound_Score,Risk_Category,Degradation_Rate,Trend_Status
+0,Surunga,Unknown,Unknown,0.4990725241667299,Low,1.540210222312803,Worsening
+1,Dakneshwori,Unknown,Unknown,0.5108597488962776,Low,2.2781133097405886,Worsening
+2,Dakneshwori,Unknown,Unknown,0.49955306858340925,Low,2.1091179808982945,Worsening
+3,Belhi Chapena,Unknown,Unknown,0.5634650611423226,Critical,2.597939262282436,Worsening
+4,Rajbiraj,Unknown,Unknown,0.5510853932747357,High,2.4253250211605244,Worsening
+5,Shambhunath,Unknown,Unknown,0.49745178840475807,Low,2.0184516366353513,Worsening
+6,Dakneshwori,Unknown,Unknown,0.5353751501149218,High,2.3599062335321013,Worsening
+7,Kanchanrup,Unknown,Unknown,0.5456357668117775,High,1.875752614402691,Worsening
+8,Kanchanrup,Unknown,Unknown,0.45547944763807646,Low,1.837989599651241,Worsening
+9,Agnisair Krishna Savaran,Unknown,Unknown,0.6157938075045113,Critical,1.9338603479439243,Worsening
+10,Agnisair Krishna Savaran,Unknown,Unknown,0.6613852761608919,Critical,1.7535096675042083,Worsening
+11,Belhi Chapena,Unknown,Unknown,0.5675947019711712,Critical,2.7425740068308233,Worsening
+12,Dakneshwori,Unknown,Unknown,0.517510973852539,Moderate,1.9806731483068367,Worsening
+13,Shambhunath,Unknown,Unknown,0.491373765129385,Low,1.9434133815033627,Worsening
+14,Shambhunath,Unknown,Unknown,0.49468997185188945,Low,1.7526447897750865,Worsening
+15,Rupani,Unknown,Unknown,0.5232243212520001,Moderate,2.3736113046228784,Worsening
+16,Mahadeva,Unknown,Unknown,0.5598392137641639,Critical,2.5513160433817825,Worsening
+17,Mahadeva,Unknown,Unknown,0.5574545503489471,High,2.7314214287151906,Worsening
+18,Belhi Chapena,Unknown,Unknown,0.527334689301863,Moderate,2.169287760065479,Worsening
+19,Balan Bihul,Unknown,Unknown,0.5,Low,1.38302444261059,Worsening
+20,Mahadeva,Unknown,Unknown,0.5594783688824971,Critical,2.6172217154132165,Worsening
+21,Shambhunath,Unknown,Unknown,0.6131304821469277,Critical,1.5513339782333035,Worsening
+22,Hanumannagar Kankalini,Unknown,Unknown,0.475348721260286,Low,2.0918585464059527,Worsening
+23,Dakneshwori,Unknown,Unknown,0.5007066810321767,Low,2.2990131747468654,Worsening
+24,Dakneshwori,Unknown,Unknown,0.5355673892898252,High,2.3473505698540604,Worsening
+25,Chhinnamasta,Unknown,Unknown,0.5678859279790618,Critical,2.6840402276884507,Worsening
+26,Chhinnamasta,Unknown,Unknown,0.5421751967625031,High,2.7205673982387046,Worsening
+27,Rajbiraj,Unknown,Unknown,0.5384487330234555,High,2.5515325382171787,Worsening
+28,Rajbiraj,Unknown,Unknown,0.5574761952769653,High,2.694931072195364,Worsening
+29,Bode Barsain,Unknown,Unknown,0.4930237119829667,Low,1.6123402734265329,Worsening
+30,Dakneshwori,Unknown,Unknown,0.5169935608581673,Moderate,2.217011757848166,Worsening
+31,Chhinnamasta,Unknown,Unknown,0.5679671336838146,Critical,2.6558086782975265,Worsening
+32,Chhinnamasta,Unknown,Unknown,0.5782000490965247,Critical,2.6458500931222755,Worsening
+33,Mahadeva,Unknown,Unknown,0.5687378104732566,Critical,2.4585976793690514,Worsening
+34,Surunga,Unknown,Unknown,0.4913897907245457,Low,1.3608890302462389,Worsening
+35,Rajbiraj,Unknown,Unknown,0.5240782458857307,Moderate,2.316788545925774,Worsening
+36,Bode Barsain,Unknown,Unknown,0.5015267775550789,Low,1.740776482701749,Worsening
+37,Bode Barsain,Unknown,Unknown,0.5034371608902289,Low,1.7000903317122034,Worsening
+38,Khadak,Unknown,Unknown,0.49714537531735903,Low,1.584507046717673,Worsening
+39,Kanchanrup,Unknown,Unknown,0.518647433425001,Moderate,1.3729224359403707,Worsening
+40,Kanchanrup,Unknown,Unknown,0.4948798910533623,Low,1.5922744504655357,Worsening
+41,Kanchanrup,Unknown,Unknown,0.625176289015883,Critical,1.4225979606486219,Worsening
+42,Rajbiraj,Unknown,Unknown,0.4985835575622566,Low,2.4496608146743064,Worsening
+43,Dakneshwori,Unknown,Unknown,0.5132056401060783,Moderate,2.223908493676128,Worsening
+44,Kanchanrup,Unknown,Unknown,0.4984238829963191,Low,1.2466615216492258,Worsening
+45,Hanumannagar Kankalini,Unknown,Unknown,0.42184964177975603,Low,2.738913266946896,Worsening
+46,Tirahut,Unknown,Unknown,0.5534725546314957,High,2.4513499744288687,Worsening
+47,Hanumannagar Kankalini,Unknown,Unknown,0.5194468711030023,Moderate,2.5257518266862133,Worsening
+48,Hanumannagar Kankalini,Unknown,Unknown,0.5150761942768699,Moderate,2.487670941252551,Worsening
+49,Hanumannagar Kankalini,Unknown,Unknown,0.45597290465036333,Low,2.628651691859483,Worsening
+50,Surunga,Unknown,Unknown,0.5078849285273699,Low,1.3521890998229404,Worsening
+51,Surunga,Unknown,Unknown,0.49851578094686305,Low,1.6405380729964238,Worsening
+52,Khadak,Unknown,Unknown,0.5042705542967323,Low,1.752250259943725,Worsening
+53,Khadak,Unknown,Unknown,0.5109749440113517,Low,1.6663782826349882,Worsening
+54,Hanumannagar Kankalini,Unknown,Unknown,0.5469176917273979,High,2.61560642635632,Worsening
+55,Hanumannagar Kankalini,Unknown,Unknown,0.49995728662591266,Low,2.9284320372278394,Worsening
+56,Kanchanrup,Unknown,Unknown,0.516716171178732,Moderate,1.6962171476556762,Worsening
+57,Agnisair Krishna Savaran,Unknown,Unknown,0.6333857481677787,Critical,1.8986683855285327,Worsening
+58,Belhi Chapena,Unknown,Unknown,0.5357062200707187,High,2.6258102445616367,Worsening
+59,Hanumannagar Kankalini,Unknown,Unknown,0.49975710728542966,Low,2.6402399199020894,Worsening
+60,Hanumannagar Kankalini,Unknown,Unknown,0.5528307091197762,High,2.7681412590307257,Worsening
+61,Hanumannagar Kankalini,Unknown,Unknown,0.5597976657180332,Critical,2.693105732020432,Worsening
+62,Hanumannagar Kankalini,Unknown,Unknown,0.4967274181811523,Low,2.709654590117961,Worsening
+63,Dakneshwori,Unknown,Unknown,0.5117023325480876,Moderate,2.151678388334275,Worsening
+64,Bode Barsain,Unknown,Unknown,0.4983192053787378,Low,1.5613336394551487,Worsening
+65,Saptakoshi,Unknown,Unknown,0.6103988149919557,Critical,0.9838816407763131,Worsening
+66,Kanchanrup,Unknown,Unknown,0.523152269096657,Moderate,1.5525450025987864,Worsening
+67,Rupani,Unknown,Unknown,0.5302248863064644,Moderate,2.4385741526775564,Worsening
+68,Shambhunath,Unknown,Unknown,0.49455698871968734,Low,2.0121991182036147,Worsening
+69,Bode Barsain,Unknown,Unknown,0.5188560762549834,Moderate,1.7502406175536684,Worsening
+70,Shambhunath,Unknown,Unknown,0.4941228481641193,Low,1.8299481785405174,Worsening
+71,Shambhunath,Unknown,Unknown,0.6074126884747908,Critical,1.6841346905465635,Worsening
+72,Tilathi Koiladi,Unknown,Unknown,0.4851841067758623,Low,2.8359142857562905,Worsening
+73,Tilathi Koiladi,Unknown,Unknown,0.5251792043139305,Moderate,2.695728851392237,Worsening
+74,Surunga,Unknown,Unknown,0.5620422736287,Critical,1.3636992350057997,Worsening
+75,Surunga,Unknown,Unknown,0.49489971976875263,Low,1.3945743924518774,Worsening
+76,Tilathi Koiladi,Unknown,Unknown,0.5403584635895459,High,2.809896123018868,Worsening
+77,Tirahut,Unknown,Unknown,0.5212926211562645,Moderate,2.294907020510374,Worsening
+78,Surunga,Unknown,Unknown,0.5176260838006356,Moderate,1.3505653966292335,Worsening
+79,Hanumannagar Kankalini,Unknown,Unknown,0.5780874876968589,Critical,2.5290324767994923,Worsening
+80,Mahadeva,Unknown,Unknown,0.5575040558965776,High,2.464513926220054,Worsening
+81,Tirahut,Unknown,Unknown,0.5160700276974806,Moderate,1.959422898655004,Worsening
+82,Surunga,Unknown,Unknown,0.5095224812772621,Low,1.6979852764332375,Worsening
+83,Balan Bihul,Unknown,Unknown,0.49915927062231014,Low,1.5322928855432874,Worsening
+84,Surunga,Unknown,Unknown,0.508723234786416,Low,1.6426783423085258,Worsening
+85,Balan Bihul,Unknown,Unknown,0.5112947037644342,Low,1.4045460787846213,Worsening
+86,Rajbiraj,Unknown,Unknown,0.5297633265838614,Moderate,2.4397718461691014,Worsening
+87,Bode Barsain,Unknown,Unknown,0.5163837041752306,Moderate,1.5877626624751453,Worsening
+88,Balan Bihul,Unknown,Unknown,0.507540456785573,Low,1.3599689773409165,Worsening
+89,Shambhunath,Unknown,Unknown,0.4912065845044039,Low,1.9514491952468866,Worsening
+90,Shambhunath,Unknown,Unknown,0.48369877007623713,Low,1.9053943554564556,Worsening
+91,Rupani,Unknown,Unknown,0.5198610530557286,Moderate,2.136343454028114,Worsening
+92,Rupani,Unknown,Unknown,0.5008387917467829,Low,1.8765770218942381,Worsening
+93,Belhi Chapena,Unknown,Unknown,0.5417702283641104,High,2.5753131257615864,Worsening
+94,Bode Barsain,Unknown,Unknown,0.5054110651454953,Low,1.703102588732018,Worsening
+95,Saptakoshi,Unknown,Unknown,0.5,Low,0.6314494281846424,Worsening
+96,Saptakoshi,Unknown,Unknown,0.536378900043922,High,0.7091966807626054,Worsening
+97,Saptakoshi,Unknown,Unknown,0.5238128217078514,Moderate,0.6346257306349642,Worsening
+98,Mahadeva,Unknown,Unknown,0.5354141144295119,High,2.494317653776797,Worsening
+99,Khadak,Unknown,Unknown,0.5811473415305735,Critical,1.5504893374974817,Worsening
+100,Saptakoshi,Unknown,Unknown,0.6068094211122138,Critical,0.961518573653575,Worsening
+101,Saptakoshi,Unknown,Unknown,0.5852335934893381,Critical,0.8513036353867939,Worsening
+102,Saptakoshi,Unknown,Unknown,0.5031172912064678,Low,0.7064786153343479,Worsening
+103,Saptakoshi,Unknown,Unknown,0.5734797935338312,Critical,0.9049184690500937,Worsening
+104,Saptakoshi,Unknown,Unknown,0.6305469744164948,Critical,0.9411893425755887,Worsening
+105,Bode Barsain,Unknown,Unknown,0.5067953280561521,Low,1.4640152142381069,Worsening
+106,Bode Barsain,Unknown,Unknown,0.5230100634049611,Moderate,1.56215370954539,Worsening
+107,Surunga,Unknown,Unknown,0.5407852240620447,High,1.2790051763632824,Worsening
+108,Hanumannagar Kankalini,Unknown,Unknown,0.5562802728496896,High,2.3304235712647148,Worsening
+109,Agnisair Krishna Savaran,Unknown,Unknown,0.507947298201609,Low,2.3014857181708974,Worsening
+110,Rajbiraj,Unknown,Unknown,0.5032631592777466,Low,2.1643214771980217,Worsening
+111,Rajbiraj,Unknown,Unknown,0.5303370536090708,High,2.40024421848669,Worsening
+112,Rajbiraj,Unknown,Unknown,0.49236608522394,Low,2.1269828832587283,Worsening
+113,Rajbiraj,Unknown,Unknown,0.49342505183964475,Low,2.135849063577545,Worsening
+114,Rajbiraj,Unknown,Unknown,0.49818013925572846,Low,2.4040752845744824,Worsening
+115,Rajbiraj,Unknown,Unknown,0.49894399623780683,Low,2.2068724329162412,Worsening
+116,Rajbiraj,Unknown,Unknown,0.5058166102726783,Low,2.257635780124378,Worsening
+117,Rajbiraj,Unknown,Unknown,0.5164703745645913,Moderate,2.327664435118782,Worsening
+118,Balan Bihul,Unknown,Unknown,0.49825409410279364,Low,1.3992695524506726,Worsening
+119,Shambhunath,Unknown,Unknown,0.48988077057772395,Low,1.9104785438159784,Worsening
+120,Shambhunath,Unknown,Unknown,0.48115960374244143,Low,1.94912413855624,Worsening
+121,Hanumannagar Kankalini,Unknown,Unknown,0.515676738767403,Moderate,2.580392171084033,Worsening
+122,Balan Bihul,Unknown,Unknown,0.5162862718894655,Moderate,1.3691301695653857,Worsening
+123,Tilathi Koiladi,Unknown,Unknown,0.5439109552032111,High,2.743860157232398,Worsening
+124,Bode Barsain,Unknown,Unknown,0.49124173004009947,Low,1.5965130738545068,Worsening
+125,Shambhunath,Unknown,Unknown,0.500907648429789,Low,1.8753216130395707,Worsening
+126,Khadak,Unknown,Unknown,0.505301320052128,Low,1.794605389866454,Worsening
+127,Khadak,Unknown,Unknown,0.495121538472409,Low,1.7674408247016982,Worsening
+128,Agnisair Krishna Savaran,Unknown,Unknown,0.56357845476434,Critical,2.190202481101583,Worsening
+129,Dakneshwori,Unknown,Unknown,0.5329116905455022,High,1.9453582439063095,Worsening
+130,Rupani,Unknown,Unknown,0.57449778648355,Critical,1.9917713852069734,Worsening
+131,Surunga,Unknown,Unknown,0.49920258635525266,Low,1.637330850903729,Worsening
+132,Tilathi Koiladi,Unknown,Unknown,0.5311805095113022,High,2.717216477345652,Worsening
+133,Tirahut,Unknown,Unknown,0.5419741691425715,High,2.2555615664660182,Worsening
+134,Saptakoshi,Unknown,Unknown,0.5306091878046272,High,0.5738250235597053,Worsening
+135,Koshi Tappu,Unknown,Unknown,0.5203284311334487,Moderate,1.1349508993915804,Worsening
+136,Kanchanrup,Unknown,Unknown,0.4893875816916421,Low,1.264458622065449,Worsening
+137,Khadak,Unknown,Unknown,0.48492048899080825,Low,1.6387657293946467,Worsening
+138,Saptakoshi,Unknown,Unknown,0.5630252200649706,Critical,0.946362987232618,Worsening
+139,Kanchanrup,Unknown,Unknown,0.5939481776695121,Critical,1.7853904366394775,Worsening
+140,Khadak,Unknown,Unknown,0.501850867832563,Low,1.438442187798084,Worsening
+141,Khadak,Unknown,Unknown,0.5862370538346316,Critical,1.4547628557139851,Worsening
+142,Khadak,Unknown,Unknown,0.5923003333745157,Critical,1.5109041379466532,Worsening
+143,Belhi Chapena,Unknown,Unknown,0.49808424565789,Low,2.2843077002307,Worsening
+144,Bishnupur,Unknown,Unknown,0.5094853813513356,Low,2.3059073843290356,Worsening
+145,Bishnupur,Unknown,Unknown,0.5138464852582639,Moderate,2.328219582287067,Worsening
+146,Rupani,Unknown,Unknown,0.5005480140258226,Low,2.3153385535107076,Worsening
+147,Agnisair Krishna Savaran,Unknown,Unknown,0.5171437679908255,Moderate,2.332325392822192,Worsening
+148,Chhinnamasta,Unknown,Unknown,0.5692804621111288,Critical,2.8135547583057385,Worsening
+149,Chhinnamasta,Unknown,Unknown,0.5562978106323733,High,2.662682288232191,Worsening
+150,Chhinnamasta,Unknown,Unknown,0.5601280203828396,Critical,2.910243774494161,Worsening
+151,Bishnupur,Unknown,Unknown,0.5466880316154799,High,2.3956168378658638,Worsening
+152,Bishnupur,Unknown,Unknown,0.5319500725634121,High,2.5318077103985392,Worsening
+153,Bishnupur,Unknown,Unknown,0.5546933891470516,High,2.5980112685162355,Worsening
+154,Bishnupur,Unknown,Unknown,0.5203739670582574,Moderate,2.386856798200869,Worsening
+155,Tilathi Koiladi,Unknown,Unknown,0.5505918010817263,High,2.603624336401441,Worsening
+156,Rajbiraj,Unknown,Unknown,0.575653705455315,Critical,2.681778763176281,Worsening
+157,Tirahut,Unknown,Unknown,0.5589368159693682,Critical,2.472041630274576,Worsening
+158,Kanchanrup,Unknown,Unknown,0.5281581759870673,Moderate,1.8230130281028747,Worsening
+159,Kanchanrup,Unknown,Unknown,0.51159449542671,Low,1.7529522346896258,Worsening
+160,Khadak,Unknown,Unknown,0.5157620086092741,Moderate,1.9673611099499524,Worsening
+161,Tilathi Koiladi,Unknown,Unknown,0.5555398007605555,High,2.3891165897630318,Worsening
+162,Tilathi Koiladi,Unknown,Unknown,0.5558853318449338,High,2.6367434227968913,Worsening
+163,Rajbiraj,Unknown,Unknown,0.52198369482358,Moderate,2.2907031565948515,Worsening
+164,Bishnupur,Unknown,Unknown,0.5434568964120077,High,2.482910050514189,Worsening

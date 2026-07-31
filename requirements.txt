@@ -7,3 +7,6 @@ plotly
 pyproj
 rtree
 mapclassify
+earthengine-api
+scikit-learn
+shap

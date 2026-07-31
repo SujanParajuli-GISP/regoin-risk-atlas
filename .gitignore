@@ -4,3 +4,17 @@ __pycache__/
 .DS_Store
 venv/
 .env
+
+# Raw GEE export CSVs (~9GB) - regenerate via scripts/extract_gee_features.py
+# + scripts/download_drive_exports.py, or download from your own Drive export.
+data/processed/
+
+# Raw source shapefiles - one-time manual input used only to (re)build
+# data/boundaries/*.geojson (which ARE committed, simplified, and reused by
+# the scripts). Not needed once those exist.
+data/New_ward_45UTM/
+data/boundaries/shapefiles/
+data/boundaries/nepal_blocks_shp.zip
+
+# Streamlit secrets (API keys, tokens) - never commit these
+.streamlit/secrets.toml
