@@ -77,8 +77,18 @@ the Google Cloud Console.
 districts at once (231 tasks) can exceed it partway through, which silently nulls out results
 for the affected districts rather than failing the task outright (we hit this — it corrupted
 NDVI for ~30 districts, discoverable only by checking whether the exported CSV has a `mean`
-column at all). If that happens, wait for the quota to reset, then resubmit just the affected
-districts/variable:
+column at all).
+
+**Important nuance we learned the hard way**: GEE appears to track *batch/export* compute quota
+separately from *interactive* compute quota. Interactive calls (`getInfo()`, small synchronous
+tests) can report normal (no restricted-mode warning) while every `Export.table.toDrive` task
+still comes back completely null — we confirmed this by re-submitting a single-year (1/6th size)
+export for an affected district weeks after the original run, with interactive quota showing
+clear, and it still failed identically. So "wait a bit and retry" only works for the interactive
+quota; the export quota's reset cycle appears to be much longer (and task size doesn't matter —
+a small task fails exactly like a large one once it's exhausted). If a retry fails the same way,
+don't keep re-submitting; either wait substantially longer (days, possibly a monthly cycle) or
+enable billing on the Cloud project to remove the noncommercial cap. Once you're ready to retry:
 
 ```bash
 python scripts/extract_gee_features.py --districts Jhapa,Banke,... --variables S2_NDVI
