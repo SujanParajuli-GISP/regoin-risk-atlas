@@ -1,7 +1,7 @@
 # 🌊 Nepal Hydro-Climatic Risk Atlas
 ### An Integrated Decision Support System for Flood & Groundwater Risk Assessment
 
-**🔴 Live Demo:** [https://saptari-risk-atlas-sujan.streamlit.app/](https://saptari-risk-atlas-sujan.streamlit.app/)
+**🔴 Live Demo:** [https://region-risk-atlas-nepal.streamlit.app/](https://region-risk-atlas-nepal.streamlit.app/)
 
 **📖 Want to run/extend this yourself?** See [TUTORIAL.md](TUTORIAL.md) for the full end-to-end
 pipeline: GEE extraction → risk scoring → local dev → GitHub → Streamlit Cloud deployment.
